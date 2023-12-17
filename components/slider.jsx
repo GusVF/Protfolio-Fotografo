@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { SliderData } from './sliderData';
+import { sliderData } from './sliderData';
 import Image from 'next/image';
 import { FaArrowCircleLeft, FaArrowCircleRight } from 'react-icons/fa';
 
@@ -23,7 +23,7 @@ const Slider = ({slides}) => {
     <div id='gallery' className="max-w-[1240] mx-auto">
       <h1 className="text-3xl font-bold text-center p-4">Gallery</h1>
       <div className="relative flex justify-center p-4">
-        {SliderData.map((slide, index) => {
+        {sliderData.map((slide, index) => {
           return(
             <div key={index} className={index === current? 'opacity-[1] ease-in duration-1000' : 'opacity-0'}>
               <FaArrowCircleLeft 
