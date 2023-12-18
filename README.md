@@ -1,34 +1,201 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+## README english version bellow.
 
-## Getting Started
+# Olá!
 
-First, run the development server:
+Este repositório demonstra minhas habilidades como desenvolvedor freelance através de um portfólio Next.js para um fotógrafo. Dê uma olhada para ver o que posso criar para você!
 
-```bash
+Recursos:
+
+Design moderno e responsivo construído com Next.js e Tailwind CSS.
+Galeria de fotos atraente com transições suaves e efeitos de lightbox.
+Interface limpa e fácil de usar para exibir talento e experiência.
+Totalmente adaptável ao seu conteúdo e identidade de marca.
+Pronto para impressionar seus clientes?
+
+Vamos colaborar e construir um portfólio online impressionante que reflete sua visão fotográfica única. Entre em contato para discutir seu projeto!
+
+Observação: Este é um trabalho em andamento, mas fique à vontade para explorar o código e ter uma ideia da minha abordagem.
+
+Tech Stack:
+
+Next.js
+React
+Tailwind CSS
+React Icons
+Quer saber mais sobre minhas habilidades?
+
+Confira meu portfolio: 'https://gusvf.github.io/portfolio/' ou entre em contato direto!
+LinkedIn: https://www.linkedin.com/in/luiz-gustavo-ferreira-gusferreira/
+
+Aproveite!
+
+# Hi there!
+
+This repository showcases my skills as a freelance developer through a Next.js portfolio website for a photographer. Take a look to see what I can create for you!
+
+## Features:
+
+Modern and responsive design built with Next.js and Tailwind CSS.
+Eye-catching photo gallery with smooth transitions and lightbox effects.
+Clean and user-friendly interface for showcasing talent and experience.
+Fully adaptable to your content and brand identity.
+Ready to impress your clients?
+
+Let's collaborate and build a stunning online portfolio that reflects your unique photographic vision. Contact me to discuss your project!
+
+Tech Stack:
+
+Next.js
+React
+Tailwind CSS
+React Icons
+Want to learn more about my skills?
+
+Check out my portfolio at: 'https://gusvf.github.io/portfolio/' or contact me directly!
+LinkedIn: https://www.linkedin.com/in/luiz-gustavo-ferreira-gusferreira/
+
+Enjoy!
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+English README.md (with Markdown enhancements):
+** Let your photos tell your story.**
+
+Welcome to my Next.js portfolio project, a sleek and modern showcase for photographers like you. Take a scroll through the code and witness the magic unfold! 🪄
+
+What you'll discover:
+
+Eye-catching visuals: Your stunning photographs take center stage with smooth transitions and lightbox effects, captivating every viewer.
+Effortless navigation: A clean and user-friendly interface makes it easy for visitors to explore your work and appreciate your artistry.
+Tailored to your vision: Fully customizable to reflect your unique style and brand identity. Say goodbye to cookie-cutter templates!
+Built with the best: Crafted with Next.js and Tailwind CSS for robust performance and cutting-edge aesthetics.
+Ready to make your online presence shine?
+
+Let's collaborate and craft a portfolio that captures the essence of your photographic journey. Contact me today and let's bring your vision to life!
+
+** Get started in a flash:**
+
+Clone this repository, then fire up your terminal and run the following commands:
+
+npm install
 npm run dev
-# or
-yarn dev
-```
+That's it! Your portfolio is up and running on localhost:3000. Dive in, customize, and make it your own.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+** Deployed with Vercel:**
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+This project is proudly hosted on Vercel, ensuring lightning-fast speeds and global reach for your stunning portfolio.
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+Connect with me:
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+Website: [Your Website URL]
+Email: [Your Email Address]
+Remember, your stories are worth telling. Let's tell them together!
 
-## Learn More
+Portuguese README.md (with Markdown enhancements):
+** Deixe suas fotos contarem sua história.**
 
-To learn more about Next.js, take a look at the following resources:
+Bem-vindo ao meu projeto de portfólio Next.js, uma vitrine moderna e elegante para fotógrafos como você. Dê uma olhada pelo código e testemunhe a magia se desenrolar! 🪄
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+O que você vai descobrir:
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+Visuais atraentes: Suas fotos impressionantes ocupam o centro do palco com transições suaves e efeitos de lightbox, cativando todos os espectadores.
+Navegação sem esforço: Uma interface limpa e fácil de usar torna mais fácil para os visitantes explorarem seu trabalho e apreciarem sua arte.
+Adaptado à sua visão: Totalmente personalizável para refletir seu estilo e identidade de marca exclusivos. Diga adeus aos modelos cortadores de biscoitos!
+Construído com o melhor: Feito com Next.js e Tailwind CSS para um desempenho robusto e estética de ponta.
+Pronto para fazer sua presença online brilhar?
 
-## Deploy on Vercel
+Vamos colaborar e criar um portfólio que capture a essência da sua jornada fotográfica. Entre em contato hoje mesmo e vamos dar vida à sua visão!
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+** Comece em um piscar de olhos:**
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+Clone este repositório, abra seu terminal e execute os seguintes comandos:
+
+npm install
+npm run dev
+Pronto! Seu portfólio está funcionando em localhost:3000. Mergulhe, personalize e torne-o seu.
+
+** Implantado com Vercel:**
+
+Este projeto está orgulhosamente hospedado no Vercel, garantindo velocidades relâmpago e alcance global para o seu fantástico portfólio.
+
+Entre em contato comigo:
+
+Website: [Seu URL do website]
+Email: [Seu endereço de email]
+Lembre-se, suas histórias valem a pena ser contadas. Vamos contá-las juntos!
+
+These updated READMEs incorporate markdown formatting for visual appeal, provide instructions on starting the project, and highlight the deployment on Vercel. Feel free to further customize them with your specific details and preferred language.
+
+I hope this provides a comprehensive and engaging way to showcase your freelance skills and attract potential clients!
