@@ -33,7 +33,7 @@ function Navbar() {
       <div className='max-w-[1240px] m-auto flex justify-between items-center p-4 text-white'>
         <Link href='/'>
           <h1 style={{ color: `${textColor}` }} className='font-bold text-4xl'>
-            Seu nome
+            Studio de imagens
           </h1>
         </Link>
         <ul style={{ color: `${textColor}` }} className='hidden sm:flex'>
@@ -41,7 +41,7 @@ function Navbar() {
             <Link href='/'>Inicio</Link>
           </li>
           <li className='p-4'>
-            <Link href='/#gallery'>Galeira</Link>
+            <Link href='/#gallery'>Galeria</Link>
           </li>
           <li className='p-4'>
             <Link href='/work'>Trabalhos</Link>
