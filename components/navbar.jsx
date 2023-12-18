@@ -26,23 +26,28 @@ function Navbar() {
   
 
   return (
-    <div style={{backgroundColor: `${color}`}} className="fixed left-0 top-0 w-full z-10 ease-in duration-300">
-      <div className="max-w-[1240px] m-auto flex justify-between items-center p-4 text-white">
-        <Link href="/">
-          <h1 style={{color: `${textColor}`}} className="font-bold text-4xl">Seu nome aqui...</h1>
+    <div
+      style={{ backgroundColor: `${color}` }}
+      className='fixed left-0 top-0 w-full z-10 ease-in duration-300'
+    >
+      <div className='max-w-[1240px] m-auto flex justify-between items-center p-4 text-white'>
+        <Link href='/'>
+          <h1 style={{ color: `${textColor}` }} className='font-bold text-4xl'>
+            Seu nome
+          </h1>
         </Link>
-        <ul style={{color: `${textColor}`}} className="hidden sm:flex">
-          <li className="p-4">
-            <Link href="/">Inicio</Link>
+        <ul style={{ color: `${textColor}` }} className='hidden sm:flex'>
+          <li className='p-4'>
+            <Link href='/'>Inicio</Link>
           </li>
-          <li className="p-4">
-            <Link href="/#galeria">Galeria</Link>
+          <li className='p-4'>
+            <Link href='/#gallery'>Galeira</Link>
           </li>
-          <li className="p-4">
-            <Link href="/portfolio">Trabalhos</Link>
+          <li className='p-4'>
+            <Link href='/work'>Trabalhos</Link>
           </li>
-          <li className="p-4">
-            <Link href="/contact">Contato</Link>
+          <li className='p-4'>
+            <Link href='/contact'>Contato</Link>
           </li>
         </ul>
         {/* mobile button */}
@@ -50,29 +55,31 @@ function Navbar() {
           { nav? <AiOutlineClose size={20} style={{color: `${textColor}`}} /> 
           : <AiOutlineMenu size={20} style={{color: `${textColor}`}} /> }
         </div>
-        {/* mobile menu */}
-        <div className={ nav
-          ? "sm:hidden absolute top-0 left-0 right-0 bottom-0 flex justify-center items-center w-full h-screen bg-black text-center ease-in duration-300":  
-          "sm:hidden absolute top-0 left-[-100%] right-0 bottom-0 flex justify-center items-center w-full h-screen bg-black text-center ease-in duration-300"
-          }>
-        <ul>
-          <li className="p-4 text-4xl hover:text-gray-500">
-            <Link href="/">Inicio</Link>
-          </li>
-          <li className="p-4 text-4xl hover:text-gray-500">
-            <Link href="/#galeria">Galeria</Link>
-          </li>
-          <li className="p-4 text-4xl hover:text-gray-500">
-            <Link href="/portfolio">Trabalhos</Link>
-          </li>
-          <li className="p-4 text-4xl hover:text-gray-500">
-            <Link href="/contact">Contato</Link>
-          </li>
-        </ul>
+         {/* Mobile Menu */}
+         <div
+          className={
+            nav
+              ? 'sm:hidden absolute top-0 left-0 right-0 bottom-0 flex justify-center items-center w-full h-screen bg-black text-center ease-in duration-300'
+              : 'sm:hidden absolute top-0 left-[-100%] right-0 bottom-0 flex justify-center items-center w-full h-screen bg-black text-center ease-in duration-300'
+          }
+        >
+          <ul>
+            <li onClick={handleNav} className='p-4 text-4xl hover:text-gray-500'>
+              <Link href='/'>Inicio</Link>
+            </li>
+            <li onClick={handleNav} className='p-4 text-4xl hover:text-gray-500'>
+              <Link href='/#gallery'>Galeria</Link>
+            </li>
+            <li onClick={handleNav} className='p-4 text-4xl hover:text-gray-500'>
+              <Link href='/work'>Trabalhos</Link>
+            </li>
+            <li onClick={handleNav} className='p-4 text-4xl hover:text-gray-500'>
+              <Link href='/contact'>Contato</Link>
+            </li>
+          </ul>
         </div>
       </div>
     </div>
   );
 };
-
 export default Navbar;
