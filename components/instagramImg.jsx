@@ -6,7 +6,7 @@ const InstagramImg = ({socialImg}) => {
   return (
     <div className="relative">
       <Image 
-        className="w-full h-full"
+        className="w-full h-full rounded-xl"
         src={socialImg} 
         alt="/" 
         layout='responsive'

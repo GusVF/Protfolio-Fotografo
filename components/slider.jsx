@@ -20,27 +20,28 @@ const Slider = ({slides}) => {
   };
 
   return (
-    <div id='gallery' className="max-w-[1240] mx-auto">
-      <h1 className="text-3xl font-bold text-center p-4">Galeria</h1>
-      <div className="relative flex justify-center p-4">
+    <div id='gallery' className="max-w-[1240] mx-auto pt-[6%]">
+      <h1 className="text-3xl font-bold text-center p-3">Galeria</h1>
+      <div className="relative flex justify-center p-3">
         {sliderData.map((slide, index) => {
           return(
             <div key={index} className={index === current? 'opacity-[1] ease-in duration-1000' : 'opacity-0'}>
               <FaArrowCircleLeft 
-              className='absolute top-[50%] left-[250px] text-white/70 cursor-pointer select-none z-[2]'
+              className='absolute top-[50%] left-[300px] text-white/70 cursor-pointer select-none z-[2]'
               size={50} 
               onClick={prevSlide} />
             {index === current && (
                 <Image 
                 src={slide.image} 
                 alt='/'
-                width={1000}
-                height={100}
-                objectFit='contain' 
+                width={900}
+                height={0}
+                objectFit='contain'
+                className="rounded-xl" 
                 />
             )};
             <FaArrowCircleRight 
-              className='absolute top-[50%] right-[250px] text-white/70 cursor-pointer select-none z-[2]'
+              className='absolute top-[50%] right-[300px] text-white/70 cursor-pointer select-none z-[2]'
               size={50} 
               onClick={nextSlide}
              />

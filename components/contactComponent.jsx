@@ -1,3 +1,4 @@
+// Contact component was deleted from the project. It was made for test purpose only.
 import React from 'react';
 
 const ContactComponent = () => {
