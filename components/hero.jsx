@@ -3,7 +3,7 @@ import React from "react";
 import { AiOutlineMail } from "react-icons/ai";
 import HoverModal from "./HoverModal";
 import Image from "next/image";
-import whatsApp from "../public/whatsapp.png";
+import whatsApp from "../public/whatsApp.png";
 
 const Hero = ({ heading, message }) => {
   return (
