@@ -10,7 +10,7 @@ import InstagramImg from './instagramImg';
 const Instagram = () => {
   return (
     <div className="container max-w-[1240px] text-center py-24">
-      <p className="text-2xl font-bold">Follow me on isntagram</p>
+      <p className="text-2xl font-bold">Clique na foto para me seguir no instagram </p>
       <p className="pb-4">@seuInstagram</p>
         <div className="grid grid-col-2 md:grid-cols-3 lg:grid-cols-6 gap-2">
           <InstagramImg socialImg={IgImg1} />
